@@ -1,6 +1,4 @@
 ---
-layout: page
-title: 'Category: Restaurants'
+layout: category
+category: restaurants
 ---
-
-TODO

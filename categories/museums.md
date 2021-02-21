@@ -1,6 +1,4 @@
 ---
-layout: page
-title: 'Category: Museums'
+layout: category
+category: museums
 ---
-
-TODO

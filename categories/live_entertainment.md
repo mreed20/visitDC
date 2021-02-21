@@ -1,6 +1,4 @@
 ---
-layout: page
-title: 'Category: Live Entertainment'
+layout: category
+category: live_entertainment
 ---
-
-TODO

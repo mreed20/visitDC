@@ -1,0 +1,20 @@
+museums:
+  - name: National Gallery of Art
+    description: Fantastic art and sculpture museum.
+    photo: ""
+    map: ""
+    address: "6th St and Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'free'
+    website: "https://www.nga.gov"
+
+  - name: 'National Museum of African American History & Culture'
+    description: 'very cool museum'
+    photo: ""
+    map: ""
+    address: "1400 Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'free'
+    website: 'https://nmaahc.si.edu'

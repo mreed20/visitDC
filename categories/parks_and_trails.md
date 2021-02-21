@@ -1,6 +1,4 @@
 ---
-layout: page
-title: 'Category: Parks & Trails'
+layout: category
+category: parks
 ---
-
-TODO
