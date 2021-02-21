@@ -10,3 +10,9 @@ To build this website on macOS, run the following commands from the root directo
 bundle install --path .vendor/bundle
 bundle exec jekyll serve --livereload
 ```
+
+## Attribution
+
+Visit DC uses the following libraries and resources:
+
+- Favicon: https://www.favicon.cc/?action=icon&file_id=592642
