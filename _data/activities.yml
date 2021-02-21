@@ -1,4 +1,25 @@
-museums:
+Live Entertainment:
+  - name: Noice
+    description: Yup
+    photo: ""
+    map: ""
+    address: "6th St and Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'Free'
+    website: "https://www.nga.gov"
+
+  - name: Hello
+    description: There
+    photo: ""
+    map: ""
+    address: "1400 Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'Free'
+    website: 'https://nmaahc.si.edu'
+
+Museums:
   - name: National Gallery of Art
     description: Fantastic art and sculpture museum.
     photo: ""
@@ -6,7 +27,7 @@ museums:
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
-    cost: 'free'
+    cost: 'Free'
     website: "https://www.nga.gov"
 
   - name: 'National Museum of African American History & Culture'
@@ -16,5 +37,47 @@ museums:
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
-    cost: 'free'
+    cost: 'Free'
+    website: 'https://nmaahc.si.edu'
+
+Parks and Trails:
+  - name: W&OD
+    description: Very long trail.
+    photo: ""
+    map: ""
+    address: "6th St and Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'Free'
+    website: "https://www.nga.gov"
+
+  - name: Mt. Vernon Trail
+    description: Also quite long.
+    photo: ""
+    map: ""
+    address: "1400 Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'Free'
+    website: 'https://nmaahc.si.edu'
+
+Restaurants:
+  - name: Foo
+    description: Bar
+    photo: ""
+    map: ""
+    address: "6th St and Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'Free'
+    website: "https://www.nga.gov"
+
+  - name: Bar
+    description: Foo
+    photo: ""
+    map: ""
+    address: "1400 Constitution Ave NW, Washington, DC"
+    hours: 12am - 12pm
+    phone: 111-111-1111
+    cost: 'Free'
     website: 'https://nmaahc.si.edu'
