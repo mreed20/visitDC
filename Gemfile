@@ -6,6 +6,10 @@ gem "minima", "~> 2.5"
 # Required for github pages.
 gem "github-pages", group: :jekyll_plugins
 
+# Find broken links
+gem 'rake'
+gem 'html-proofer'
+
 # If you have any plugins, put them here!
 group :jekyll_plugins do
 end
