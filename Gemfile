@@ -7,8 +7,12 @@ gem "minima", "~> 2.5"
 gem "github-pages", group: :jekyll_plugins
 
 # Find broken links
-gem 'jekyll'
+gem 'rake'
 gem 'html-proofer'
 
 # Use relative links
 gem 'jekyll-relative-links'
+
+# If you have any plugins, put them here!
+# group :jekyll_plugins do
+# end
