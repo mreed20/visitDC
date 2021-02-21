@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Home
+permalink: /
 ---
 
 <!-- TODO The following text should go on a side panel -->
