@@ -4,6 +4,9 @@ source "https://rubygems.org"
 gem "jekyll"
 gem "minima", "~> 2.5"
 
+# Required for github pages.
+gem "github-pages", group: :jekyll_plugins
+
 # Find broken links
 gem 'html-proofer'
 
