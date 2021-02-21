@@ -2,15 +2,17 @@ title: Visit DC
 baseurl: "/visitDC"
 url: "https://mreed20.github.io"
 
-# Build settings
 theme: minima
 
+plugins:
+  - jekyll-relative-links
+
 # Defines the pages to include in the header, and in what order.
-# This is what the Minima theme.
+# Used by the minima theme.
 header_pages:
-  - index.markdown
-  - categories.markdown
-  - planner.markdown
+  - index.md
+  - categories.md
+  - planner.md
 
 exclude:
   - README.md

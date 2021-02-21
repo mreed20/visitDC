@@ -16,4 +16,4 @@ TODO
 TODO
 - Put collage of landmarks on right side of page
 
-[Click here to plan your stay in DC!](categories)
+[Click here to plan your stay in DC!](categories.md)

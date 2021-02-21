@@ -15,4 +15,4 @@ bundle exec jekyll serve --livereload
 
 Visit DC uses the following libraries and resources:
 
-- Favicon: https://www.favicon.cc/?action=icon&file_id=592642
+- TODO
