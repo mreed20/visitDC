@@ -1,6 +1,6 @@
 title: Visit DC
-baseurl: ""
-url: ""
+baseurl: "/visitDC"
+url: "https://mreed20.github.io"
 
 theme: minima
 

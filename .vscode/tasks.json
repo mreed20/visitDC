@@ -6,7 +6,8 @@
         {
             "label": "jekyll serve",
             "type": "shell",
-            "command": "bundle exec jekyll serve --livereload"
+            "command": "bundle exec jekyll serve -d _site/visitDC/ --livereload --watch",
+            "problemMatcher": []
         }
     ]
 }
