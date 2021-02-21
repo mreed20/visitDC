@@ -1,4 +1,4 @@
 ---
 layout: category
-category: parks
+category: Parks and Trails
 ---

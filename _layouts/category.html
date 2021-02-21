@@ -1,30 +1,44 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
+{%- include head.html -%}
 
-  <body>
+<body>
 
-    {%- include header.html -%}
+  {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <h1> {{ page.category }} </h1>
+  <main class="page-content" aria-label="Content">
+    <div class="wrapper">
+      <h1> {{ page.category }} </h1>
 
-        {% for activity in site.data.activities[page.category] %}
+      <hr />
 
-          <p> {{ activity.name }} </p>
+      {% for activity in site.data.activities[page.category] %}
 
-        {% endfor %}
+      <p> <h2>{{ activity.name }}</h2> </p>
+      <p> <b>Desciption</b>: {{ activity.description }} </p>
+      <p> <b>Cost</b>: {{ activity.cost }} </p>
+      <p> <b>Address</b>: {{ activity.address }} </p>
+      <p> <b>Business hours</b>: {{ activity.hours }} </p>
+      <p> <b>Phone</b>: {{ activity.phone }} </p>
+      <p>
+        <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a>
+      </p>
 
-        <a href="{{ site.baseurl }}/categories.html">
-          Back to Categories
-        </a>
-      </div>
-    </main>
+      <hr />
 
-    {%- include footer.html -%}
+      {% endfor %}
 
-  </body>
+    </div>
+    <div class="wrapper">
+      <a href="{{ site.baseurl }}/categories.html">
+        Back to Categories
+      </a>
+    </div>
+  </main>
+
+  {%- include footer.html -%}
+
+</body>
 
 </html>

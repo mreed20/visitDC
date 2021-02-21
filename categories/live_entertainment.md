@@ -1,4 +1,4 @@
 ---
 layout: category
-category: live_entertainment
+category: Live Entertainment
 ---
