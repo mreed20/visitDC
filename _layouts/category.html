@@ -22,6 +22,8 @@ layout: default
   <h1 class="post-title">{{ page.category }}</h1>
 </header>
 
+<hr>
+
 
 
 {% for activity in site.data.activities[page.category].list %}
@@ -31,7 +33,7 @@ layout: default
 
   <!-- Activity name. -->
   <div class="grid-item">
-    <h3>{{ activity.name }}</h3>
+    {{ activity.name }}
   </div>
 
   <!-- Description for this activity. -->
@@ -44,7 +46,6 @@ layout: default
     <img src="{{ site.baseurl }}/{{ activity.path_photo }}">
   </div>
 
-
   <!-- Misc info for this activity. -->
   <ul>
     <li> <b>Cost</b>: {{ activity.cost }} </li>
@@ -53,9 +54,9 @@ layout: default
     <li> <b>Phone</b>: {{ activity.phone }} </li>
     <li> <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a> </li>
   </ul>
-
 </div>
 
+<!-- Vertical line separating entries. -->
 <hr />
 
 {% endfor %}
