@@ -2,6 +2,8 @@ title: Visit DC
 baseurl: "/visitDC"
 url: "https://mreed20.github.io"
 
+author: "Michael Reed"
+
 theme: minima
 
 plugins:
