@@ -4,7 +4,7 @@ Live Entertainment:
   list:
   - name: Noice
     description: Yup
-    photo: ""
+    path_photo: ""
     map: ""
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -14,7 +14,7 @@ Live Entertainment:
 
   - name: Hello
     description: There
-    photo: ""
+    path_photo: ""
     map: ""
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -28,7 +28,7 @@ Museums:
   list:
   - name: National Gallery of Art
     description: Fantastic art and sculpture museum.
-    photo: ""
+    path_photo: "img/museums.jpg"
     map: ""
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -38,7 +38,7 @@ Museums:
 
   - name: 'National Museum of African American History & Culture'
     description: 'very cool museum'
-    photo: ""
+    path_photo: "img/museums.jpg"
     map: ""
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -52,7 +52,7 @@ Parks:
   list:
   - name: Cool park
     description: Very cool park.
-    photo: ""
+    path_photo: ""
     map: ""
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -62,7 +62,7 @@ Parks:
 
   - name: Another cool park.
     description: Also very cool.
-    photo: ""
+    path_photo: ""
     map: ""
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -76,7 +76,7 @@ Restaurants:
   list:
   - name: Foo
     description: Bar
-    photo: ""
+    path_photo: ""
     map: ""
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
@@ -86,7 +86,7 @@ Restaurants:
 
   - name: Bar
     description: Foo
-    photo: ""
+    path_photo: ""
     map: ""
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm

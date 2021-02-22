@@ -2,27 +2,65 @@
 layout: default
 ---
 
+<style>
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #FFFFFF;
+  }
+
+  .grid-item {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+  }
+</style>
+
 <header class="post-header">
   <h1 class="post-title">{{ page.category }}</h1>
 </header>
 
+
+
 {% for activity in site.data.activities[page.category].list %}
 
-<p>
-<h2>{{ activity.name }}</h2>
-</p>
-<p> <b>Desciption</b>: {{ activity.description }} </p>
-<p> <b>Cost</b>: {{ activity.cost }} </p>
-<p> <b>Address</b>: {{ activity.address }} </p>
-<p> <b>Business hours</b>: {{ activity.hours }} </p>
-<p> <b>Phone</b>: {{ activity.phone }} </p>
-<p>
-  <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a>
-</p>
+<!-- Container for each activity. -->
+<div class="grid-container">
+
+  <!-- Activity name. -->
+  <div class="grid-item">
+    <h3>{{ activity.name }}</h3>
+  </div>
+
+  <!-- Description for this activity. -->
+  <div class="grid-item">
+    {{ activity.description }}
+  </div>
+
+  <!-- Activity photo -->
+  <div class="grid-item">
+    <img src="{{ site.baseurl }}/{{ activity.path_photo }}">
+  </div>
+
+
+  <!-- Misc info for this activity. -->
+  <ul>
+    <li> <b>Cost</b>: {{ activity.cost }} </li>
+    <li> <b>Address</b>: {{ activity.address }} </li>
+    <li> <b>Business hours</b>: {{ activity.hours }} </li>
+    <li> <b>Phone</b>: {{ activity.phone }} </li>
+    <li> <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a> </li>
+  </ul>
+
+</div>
 
 <hr />
 
 {% endfor %}
+
+<br>
 
 <a href="{{ site.baseurl }}/categories.html">
   Back to Categories

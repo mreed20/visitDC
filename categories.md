@@ -18,7 +18,6 @@ title: Categories
   font-size: 35px;
   text-align: center;
 }
-
 </style>
 
 

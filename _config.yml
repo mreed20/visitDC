@@ -10,7 +10,7 @@ plugins:
 # Defines the pages to include in the header, and in what order.
 # Used by the minima theme.
 header_pages:
-  - index.md
+  - home.md
   - categories.md
   - planner.md
 
