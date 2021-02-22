@@ -15,4 +15,8 @@ bundle exec jekyll serve --livereload
 
 Visit DC uses the following libraries and resources:
 
-- TODO
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
+- https://dcist.com/story/20/07/13/the-national-gallery-of-art-will-reopen-partially-next-week/
+- https://www.nytimes.com/2019/10/30/travel/footsteps-frederick-law-olmsted-parks.html 
+- https://blog.reverbnation.com/2018/08/30/live-shows-important-ever/
+- https://www.foodandwine.com/fwpro/the-restaurants-you-love-the-most-wont-come-back

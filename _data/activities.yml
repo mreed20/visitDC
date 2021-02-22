@@ -1,4 +1,7 @@
 Live Entertainment:
+  url: ""
+  photo: ""
+  list:
   - name: Noice
     description: Yup
     photo: ""
@@ -40,9 +43,9 @@ Museums:
     cost: 'Free'
     website: 'https://nmaahc.si.edu'
 
-Parks and Trails:
-  - name: W&OD
-    description: Very long trail.
+Parks:
+  - name: Cool park
+    description: Very cool trail.
     photo: ""
     map: ""
     address: "6th St and Constitution Ave NW, Washington, DC"
@@ -51,8 +54,8 @@ Parks and Trails:
     cost: 'Free'
     website: "https://www.nga.gov"
 
-  - name: Mt. Vernon Trail
-    description: Also quite long.
+  - name: Another cool park.
+    description: Also very cool.
     photo: ""
     map: ""
     address: "1400 Constitution Ave NW, Washington, DC"

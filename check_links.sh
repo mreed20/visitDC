@@ -4,4 +4,4 @@ set -u
 # site in a directory (baseurl = visitDC) corresponding to where it would be on
 # the web. See https://github.com/jekyll/jekyll/issues/4122
 bundle exec jekyll build -d _site/visitDC/
-bundle exec htmlproofer --assume-extension ./_site
+bundle exec htmlproofer --assume-extension --check-html ./_site
