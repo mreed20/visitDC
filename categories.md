@@ -24,41 +24,20 @@ title: Categories
 
 <div class="grid-container">
 
+    {% for activity in site.data.activities %}
+
     <div class="grid-item">
         <div class="w3-display-container">
-            <img src='live_entertainment.jpg'>
+            <img src="{{ activity[1].path_photo }}">
             <div class="w3-display-middle">
-                <a class="w3-text-white" style="text-shadow:2px 2px 0 #444" href='categories/live_entertainment.html'>Live Entertainment</a>
+                <a class="w3-text-white" style="text-shadow:2px 2px 0 #444" href="{{ activity[1].path_page }}">
+                    {{ activity[0] }}
+                </a>
             </div>
         </div>
     </div>  
 
-    <div class="grid-item">
-        <div class="w3-display-container">
-            <img src='museums.jpg'>
-            <div class="w3-display-middle">
-                <a class="w3-text-white" href='categories/museums.html'>Museums</a>
-            </div>
-        </div>
-    </div>  
-
-    <div class="grid-item">
-        <div class="w3-display-container">
-            <img src='parks.jpg'>
-            <div class="w3-display-middle">
-                <a class="w3-text-white" href='categories/parks_and_trails.html'>Parks</a>
-            </div>
-        </div>
-    </div>  
-
-    <div class="grid-item">
-        <div class="w3-display-container">
-            <img src='restaurants.jpg'>
-            <div class="w3-display-middle">
-                <a class="w3-text-white" href='categories/restaurants.html'>Restaurants</a>
-            </div>
-        </div>
-    </div> 
+    {% endfor %}
 
 </div>
 

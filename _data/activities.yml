@@ -1,6 +1,6 @@
 Live Entertainment:
-  url: ""
-  photo: ""
+  path_page: category/live_entertainment.html
+  path_photo: live_entertainment.jpg
   list:
   - name: Noice
     description: Yup
@@ -23,6 +23,9 @@ Live Entertainment:
     website: 'https://nmaahc.si.edu'
 
 Museums:
+  path_page: "category/museums.html"
+  path_photo: museums.jpg
+  list:
   - name: National Gallery of Art
     description: Fantastic art and sculpture museum.
     photo: ""
@@ -44,8 +47,11 @@ Museums:
     website: 'https://nmaahc.si.edu'
 
 Parks:
+  path_page: "category/parks.html"
+  path_photo: "parks.jpg"
+  list:
   - name: Cool park
-    description: Very cool trail.
+    description: Very cool park.
     photo: ""
     map: ""
     address: "6th St and Constitution Ave NW, Washington, DC"
@@ -65,6 +71,9 @@ Parks:
     website: 'https://nmaahc.si.edu'
 
 Restaurants:
+  path_page: "category/restaurants.html"
+  path_photo: "restaurants.jpg"
+  list:
   - name: Foo
     description: Bar
     photo: ""

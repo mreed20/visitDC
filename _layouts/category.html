@@ -6,7 +6,7 @@ layout: default
   <h1 class="post-title">{{ page.category }}</h1>
 </header>
 
-{% for activity in site.data.activities[page.category] %}
+{% for activity in site.data.activities[page.category].list %}
 
 <p>
 <h2>{{ activity.name }}</h2>
