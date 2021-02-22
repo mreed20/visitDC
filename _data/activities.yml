@@ -1,6 +1,6 @@
 Live Entertainment:
   path_page: category/live_entertainment.html
-  path_photo: live_entertainment.jpg
+  path_photo: img/live_entertainment.jpg
   list:
   - name: Noice
     description: Yup
@@ -24,7 +24,7 @@ Live Entertainment:
 
 Museums:
   path_page: "category/museums.html"
-  path_photo: museums.jpg
+  path_photo: img/museums.jpg
   list:
   - name: National Gallery of Art
     description: Fantastic art and sculpture museum.
@@ -48,7 +48,7 @@ Museums:
 
 Parks:
   path_page: "category/parks.html"
-  path_photo: "parks.jpg"
+  path_photo: "img/parks.jpg"
   list:
   - name: Cool park
     description: Very cool park.
@@ -72,7 +72,7 @@ Parks:
 
 Restaurants:
   path_page: "category/restaurants.html"
-  path_photo: "restaurants.jpg"
+  path_photo: "img/restaurants.jpg"
   list:
   - name: Foo
     description: Bar
