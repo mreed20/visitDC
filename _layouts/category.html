@@ -1,44 +1,29 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+---
+layout: default
+---
 
-{%- include head.html -%}
+<header class="post-header">
+  <h1 class="post-title">{{ page.category }}</h1>
+</header>
 
-<body>
+{% for activity in site.data.activities[page.category] %}
 
-  {%- include header.html -%}
+<p>
+<h2>{{ activity.name }}</h2>
+</p>
+<p> <b>Desciption</b>: {{ activity.description }} </p>
+<p> <b>Cost</b>: {{ activity.cost }} </p>
+<p> <b>Address</b>: {{ activity.address }} </p>
+<p> <b>Business hours</b>: {{ activity.hours }} </p>
+<p> <b>Phone</b>: {{ activity.phone }} </p>
+<p>
+  <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a>
+</p>
 
-  <main class="page-content" aria-label="Content">
-    <div class="wrapper">
-      <h1> {{ page.category }} </h1>
+<hr />
 
-      <hr />
+{% endfor %}
 
-      {% for activity in site.data.activities[page.category] %}
-
-      <p> <h2>{{ activity.name }}</h2> </p>
-      <p> <b>Desciption</b>: {{ activity.description }} </p>
-      <p> <b>Cost</b>: {{ activity.cost }} </p>
-      <p> <b>Address</b>: {{ activity.address }} </p>
-      <p> <b>Business hours</b>: {{ activity.hours }} </p>
-      <p> <b>Phone</b>: {{ activity.phone }} </p>
-      <p>
-        <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a>
-      </p>
-
-      <hr />
-
-      {% endfor %}
-
-    </div>
-    <div class="wrapper">
-      <a href="{{ site.baseurl }}/categories.html">
-        Back to Categories
-      </a>
-    </div>
-  </main>
-
-  {%- include footer.html -%}
-
-</body>
-
-</html>
+<a href="{{ site.baseurl }}/categories.html">
+  Back to Categories
+</a>
