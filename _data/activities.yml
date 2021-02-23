@@ -2,94 +2,95 @@ Live Entertainment:
   path_page: category/live_entertainment.html
   path_photo: img/live_entertainment.jpg
   list:
-  - name: Noice
-    description: Yup
-    path_photo: img/live_entertainment.jpg
+  - name: '9:30 Club'
+    description: ''
+    description_author: Wikipedia
+    path_photo: img/930_club.jpg
     path_map: img/map_placeholder.png
-    address: "6th St and Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: "https://www.nga.gov"
+    street: "815 V St NW"
+    hours: N/A
+    phone: (202) 265-0930
+    cost: varies
+    website: www.930.com
 
-  - name: Hello
-    description: There
-    path_photo: img/live_entertainment.jpg
+  - name: DC Improv Comedy Club
+    description: ''
+    path_photo: img/comedy_club.jpg
     path_map: img/map_placeholder.png
-    address: "1400 Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: 'https://nmaahc.si.edu'
+    street: 1140 Connecticut Ave NW
+    hours: 6:00 AM - 11:00 PM
+    phone: (202) 296-7008
+    cost: varies
+    website: 'dcimprov.com'
 
 Museums:
   path_page: "category/museums.html"
   path_photo: img/museums.jpg
   list:
   - name: National Gallery of Art
-    description: Fantastic art and sculpture museum.
-    path_photo: "img/museums.jpg"
+    description: ''
+    path_photo: "img/nga.jpg"
     path_map: img/map_placeholder.png
-    address: "6th St and Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: "https://www.nga.gov"
+    street: Constitution Ave. NW
+    hours: 11:00 am - 4:00 pm
+    phone: (202) 737-4215
+    cost: free
+    website: "www.nga.gov"
 
   - name: 'National Museum of African American History & Culture'
-    description: 'very cool museum'
-    path_photo: "img/museums.jpg"
+    description: ''
+    path_photo: "img/aah.jpg"
     path_map: img/map_placeholder.png
-    address: "1400 Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: 'https://nmaahc.si.edu'
+    street: 1400 Constitution Ave NW
+    hours: 11:00 am - 4:00 pm
+    phone: (844) 750-3012
+    cost: free
+    website: 'nmaahc.si.edu'
 
 Parks:
   path_page: "category/parks.html"
   path_photo: "img/parks.jpg"
   list:
-  - name: Cool park
+  - name: Rock Creek Park
     description: Very cool park.
-    path_photo: ""
+    path_photo: img/rock_creek_park.jpg
     path_map: img/map_placeholder.png
-    address: "6th St and Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: "https://www.nga.gov"
+    street: 5200 Glover Rd, NW
+    hours: Sunrise - Sunset
+    phone: (202) 895-6000 
+    cost: free
+    website: 'www.nps.gov/rocr/'
 
-  - name: Another cool park.
-    description: Also very cool.
-    path_photo: ""
+  - name: U.S. National Arboretum
+    description: ''
+    path_photo: img/arboretum.jpg
     path_map: img/map_placeholder.png
-    address: "1400 Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: 'https://nmaahc.si.edu'
+    street: 3501 New York Ave NE
+    hours: '8:00 am - 5:00 pm'
+    phone: (202) 245-4523
+    cost: free
+    website: 'www.usna.usda.gov'
 
 Restaurants:
   path_page: "category/restaurants.html"
   path_photo: "img/restaurants.jpg"
   list:
-  - name: Foo
-    description: Bar
-    path_photo: ""
+  - name: Bistro Aracosia
+    description: ''
+    path_photo: img/aracosia.jpg
     path_map: img/map_placeholder.png
-    address: "6th St and Constitution Ave NW, Washington, DC"
-    hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: "https://www.nga.gov"
+    street: 5100 MacArthur Blvd
+    hours: 12:00 pm - 9:00 pm
+    phone: (202) 363-0400
+    cost: '$30 per person'
+    website: www.bistroaracosia.com
 
-  - name: Bar
-    description: Foo
-    path_photo: ""
+  - name: Del Mar
+    description: ''
+    path_photo: img/del_mar.jpg
     path_map: img/map_placeholder.png
-    address: "1400 Constitution Ave NW, Washington, DC"
+    street: 791 Wharf St. SW
     hours: 12am - 12pm
-    phone: 111-111-1111
-    cost: 'Free'
-    website: 'https://nmaahc.si.edu'
+    phone: (202) 525-1402 
+    cost: '$70 per person'
+    website: www.delmardc.com

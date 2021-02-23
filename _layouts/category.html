@@ -14,8 +14,8 @@ layout: default
 
 <div class="w3-row-padding">
   <!-- Activity name. -->
-  <div class="w3-container w3-half">
-    <h2>{{ activity.name }}</h2>
+  <div class="w3-container">
+    <h3>{{ activity.name }}</h3>
   </div>
 </div>
 
@@ -25,7 +25,7 @@ layout: default
     <img src="{{ site.baseurl }}/{{ activity.path_photo }}" style="border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
   </div>
   <!-- Map photo. -->
-  <div class="w3-container w3-half">
+  <div class="w3-container w3-half w3-center">
     <img src="{{ site.baseurl }}/{{ activity.path_map }}" style="border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
   </div>
 </div>
@@ -33,17 +33,19 @@ layout: default
 <div class="w3-row-padding">
   <!-- Description for this activity. -->
   <div class="w3-container w3-half">
-    {{ activity.description }}
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut non massa vitae risus fermentum ullamcorper. Phasellus risus urna, ornare in aliquam id, porttitor sit amet sapien. Nulla facilisi.
+    <!-- TODO: use this later. -->
+    <!-- {{ activity.description }} -->
   </div>
 
   <!-- Misc info for this activity. -->
   <div class="w3-container w3-half">
     <ul>
-      <li> <b>Cost</b>: {{ activity.cost }} </li>
-      <li> <b>Address</b>: {{ activity.address }} </li>
-      <li> <b>Business hours</b>: {{ activity.hours }} </li>
+      <li> <b>Address</b>: {{ activity.street }} </li>
+      <li> <b>Hours</b>: {{ activity.hours }} </li>
+      <li> <b>Entry Price</b>: {{ activity.cost }} </li>
       <li> <b>Phone</b>: <a href=tel:+{{ activity.phone }}>{{ activity.phone }}</a> </li>
-      <li> <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a> </li>
+      <li> <b>Website</b>: <a href=https://{{ activity.website }}>{{activity.website}}</a> </li>
     </ul>
   </div>
 </div>

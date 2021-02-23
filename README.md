@@ -21,3 +21,6 @@ Visit DC uses the following libraries and resources:
 - https://blog.reverbnation.com/2018/08/30/live-shows-important-ever/
 - https://www.foodandwine.com/fwpro/the-restaurants-you-love-the-most-wont-come-back
 - https://thenounproject.com/term/map-marker/16968/
+- https://washington.org/DC-focus-on/dcs-parks-and-gardens#
+- https://www.delmardc.com
+- (some images from Wikimedia Commons)
