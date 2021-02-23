@@ -15,7 +15,8 @@ title: Categories
         <!-- Inspired by: https://www.w3schools.com/w3css/w3css_buttons.asp -->
         <div class="w3-button w3-white w3-ripple">
             <a href="{{ activity[1].path_page }}">
-                <img src="{{ activity[1].path_photo }}">
+                <img src="{{ activity[1].path_photo }}"
+                     alt="{{ activity[1].alt_photo }}">
             </a>
             <h3> {{ activity[0] }} </h3>
         </div>

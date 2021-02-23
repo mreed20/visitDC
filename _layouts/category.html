@@ -22,11 +22,13 @@ layout: default
 <div class="w3-row-padding">
   <!-- Activity photo. -->
   <div class="w3-container w3-half">
-    <img src="{{ site.baseurl }}/{{ activity.path_photo }}" style="border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
+    <img src="{{ site.baseurl }}/{{ activity.path_photo }}"
+         alt="{{ activity.alt_photo }}"
+         style="border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
   </div>
   <!-- Map photo. -->
   <div class="w3-container w3-half w3-center">
-    <img src="{{ site.baseurl }}/{{ activity.path_map }}" style="border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
+    <img src="{{ site.baseurl }}/{{ activity.path_map }}" alt='Map' style="border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
   </div>
 </div>
 
@@ -44,7 +46,7 @@ layout: default
       <li> <b>Address</b>: {{ activity.street }} </li>
       <li> <b>Hours</b>: {{ activity.hours }} </li>
       <li> <b>Entry Price</b>: {{ activity.cost }} </li>
-      <li> <b>Phone</b>: <a href=tel:+{{ activity.phone }}>{{ activity.phone }}</a> </li>
+      <li> <b>Phone</b>: {{ activity.phone }} </li>
       <li> <b>Website</b>: <a href=https://{{ activity.website }}>{{activity.website}}</a> </li>
     </ul>
   </div>
