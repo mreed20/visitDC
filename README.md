@@ -20,3 +20,4 @@ Visit DC uses the following libraries and resources:
 - https://www.nytimes.com/2019/10/30/travel/footsteps-frederick-law-olmsted-parks.html 
 - https://blog.reverbnation.com/2018/08/30/live-shows-important-ever/
 - https://www.foodandwine.com/fwpro/the-restaurants-you-love-the-most-wont-come-back
+- https://thenounproject.com/term/map-marker/16968/

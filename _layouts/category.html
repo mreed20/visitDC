@@ -12,31 +12,32 @@ layout: default
 
 {% for activity in site.data.activities[page.category].list %}
 
-<!-- Flexible container for each activity. -->
 <div class="w3-row-padding">
-
   <!-- Activity name. -->
-  <div class="w3-col s12">
+  <div class="w3-container w3-half">
     <h2>{{ activity.name }}</h2>
   </div>
+</div>
 
+<div class="w3-row-padding">
   <!-- Activity photo. -->
-  <div class="w3-col s6">
+  <div class="w3-container w3-half">
     <img src="{{ site.baseurl }}/{{ activity.path_photo }}">
   </div>
-
   <!-- Map photo. -->
-  <div class="w3-col s6">
+  <div class="w3-container w3-half">
     <img src="{{ site.baseurl }}/{{ activity.path_map }}">
   </div>
+</div>
 
+<div class="w3-row-padding">
   <!-- Description for this activity. -->
-  <div class="w3-col s6">
+  <div class="w3-container w3-half">
     {{ activity.description }}
   </div>
 
   <!-- Misc info for this activity. -->
-  <div class="w3-col s6">
+  <div class="w3-container w3-half">
     <ul>
       <li> <b>Cost</b>: {{ activity.cost }} </li>
       <li> <b>Address</b>: {{ activity.address }} </li>
@@ -45,14 +46,13 @@ layout: default
       <li> <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a> </li>
     </ul>
   </div>
+</div>
 
+<div class="w3-row-padding">
   <!-- Button. -->
-  <div class="w3-col s12">
     <button class="w3-button w3-border w3-block w3-ripple">
         Add to Planner
     </button>
-  </div>
-
 </div>
 
 <!-- Vertical line separating entries. -->

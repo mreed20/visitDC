@@ -5,7 +5,7 @@ Live Entertainment:
   - name: Noice
     description: Yup
     path_photo: img/live_entertainment.jpg
-    path_map: img/live_entertainment.jpg
+    path_map: img/map_placeholder.png
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -15,7 +15,7 @@ Live Entertainment:
   - name: Hello
     description: There
     path_photo: img/live_entertainment.jpg
-    path_map: img/live_entertainment.jpg
+    path_map: img/map_placeholder.png
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -29,7 +29,7 @@ Museums:
   - name: National Gallery of Art
     description: Fantastic art and sculpture museum.
     path_photo: "img/museums.jpg"
-    path_map: ""
+    path_map: img/map_placeholder.png
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -39,7 +39,7 @@ Museums:
   - name: 'National Museum of African American History & Culture'
     description: 'very cool museum'
     path_photo: "img/museums.jpg"
-    path_map: ""
+    path_map: img/map_placeholder.png
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -53,7 +53,7 @@ Parks:
   - name: Cool park
     description: Very cool park.
     path_photo: ""
-    path_map: ""
+    path_map: img/map_placeholder.png
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -63,7 +63,7 @@ Parks:
   - name: Another cool park.
     description: Also very cool.
     path_photo: ""
-    path_map: ""
+    path_map: img/map_placeholder.png
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -77,7 +77,7 @@ Restaurants:
   - name: Foo
     description: Bar
     path_photo: ""
-    path_map: ""
+    path_map: img/map_placeholder.png
     address: "6th St and Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
@@ -87,7 +87,7 @@ Restaurants:
   - name: Bar
     description: Foo
     path_photo: ""
-    path_map: ""
+    path_map: img/map_placeholder.png
     address: "1400 Constitution Ave NW, Washington, DC"
     hours: 12am - 12pm
     phone: 111-111-1111
