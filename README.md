@@ -26,3 +26,4 @@ Visit DC uses the following libraries and resources:
 - https://www.delmardc.com
 - (some images from Wikimedia Commons)
 - https://dcist.com/story/20/04/25/without-tourists-the-national-mall-is-weirdly-quiet-and-unusually-green/
+- https://www.javascripttutorial.net/web-apis/javascript-drag-and-drop/
