@@ -27,3 +27,5 @@ Visit DC uses the following libraries and resources:
 - (some images from Wikimedia Commons)
 - https://dcist.com/story/20/04/25/without-tourists-the-national-mall-is-weirdly-quiet-and-unusually-green/
 - https://www.javascripttutorial.net/web-apis/javascript-drag-and-drop/
+- https://web.dev/drag-and-drop/
+- https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop

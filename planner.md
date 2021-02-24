@@ -11,25 +11,19 @@ title: Planner
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 0;
 }
 
-.box {
+.drag_target {
     height: 100px;
     width: 100px;
     border: solid 3px #ccc;
     margin: 10px;
 }
 
-.drag-over {
-    border: dashed 3px red;
-}
-
 .item {
-    height: 100px;
-    width: 100px;
     cursor: move;
     border: solid 3px #ccc;
+    margin: 10px;
 }
 </style>
 
@@ -40,16 +34,17 @@ title: Planner
 
 <h3> Destination area </h3>
 <div class="w3-container" style="display: flex; flex-direction: row; margin: 10px; border: solid 3px #ccc;">
-  <div class="box">Monday</div>
-  <div class="box">Tuesday</div>
-  <div class="box">Wednesday</div>
-  <div class="box">Thursday</div>
-  <div class="box">Friday</div>
-  <div class="box">Saturday</div>
-  <div class="box">Sunday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Monday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Tuesday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Wednesday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Thursday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Friday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Saturday</div>
+  <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Sunday</div>
 </div>
 
 <script>
+  // Renders the cart div.
   function renderCart(items) {
     const $cart = document.querySelector(".cart")
 
@@ -58,7 +53,7 @@ title: Planner
     } else {
       $cart.innerHTML = items.map((item) => `
 
-      <div class="item" draggable="true">
+      <div class="item" id=${item.id} draggable="true" ondragstart="drag(event)">
         ${item.name}
         <button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button>
       </div>`).join("")
@@ -66,4 +61,44 @@ title: Planner
   }
   renderCart(cartLS.list())
   cartLS.onChange(renderCart)
+
+  //
+  // Drag'n'drop logic
+  //
+
+  function allowDrop(ev) {
+    ev.preventDefault();
+  }
+
+  function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
+
+  function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+  }
+
+  function handleDragStart(e) {
+    this.style.opacity = '0.4';
+  }
+
+  function handleDragEnd(e) {
+    this.style.opacity = '1';
+  }
+
+  function handleDragOver(e) {
+    if (e.preventDefault) {
+      e.preventDefault();
+    }
+    return false;
+  }
+
+  let items = document.querySelectorAll('.item');
+  items.forEach(function(item) {
+    item.addEventListener('dragstart', handleDragStart, false);
+    item.addEventListener('dragend', handleDragEnd, false);
+    item.addEventListener('dragover', handleDragOver, false);
+  });
 </script>
