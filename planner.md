@@ -33,7 +33,11 @@ title: Planner
 </div>
 
 <h3> Destination area </h3>
-<div class="w3-container" style="display: flex; flex-direction: row; margin: 10px; border: solid 3px #ccc;">
+<div class="w3-container"
+     style="display: flex; flex-direction: row; margin: 10px; border: solid 3px #ccc;"
+     ondrop="drop(event)"
+     ondragover="allowDrop(event)">
+
   <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Monday</div>
   <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Tuesday</div>
   <div class="drag_target" ondrop="drop(event)" ondragover="allowDrop(event)">Wednesday</div>
