@@ -14,7 +14,7 @@ Live Entertainment:
     hours: N/A
     phone: '(202) 265-0930'
     cost: varies
-    website: www.930.com
+    website: 'https://www.930.com'
 
   - name: DC Improv Comedy Club
     id: 2
@@ -26,7 +26,7 @@ Live Entertainment:
     hours: 6:00 AM - 11:00 PM
     phone: '(202) 296-7008'
     cost: varies
-    website: 'dcimprov.com'
+    website: 'https://dcimprov.com'
 
 Museums:
   path_page: "category/museums.html"
@@ -43,7 +43,7 @@ Museums:
     hours: 11:00 am - 4:00 pm
     phone: '(202) 737-4215'
     cost: free
-    website: "www.nga.gov"
+    website: "https://www.nga.gov"
 
   - name: 'National Museum of African American History & Culture'
     description: ''
@@ -55,7 +55,7 @@ Museums:
     hours: 11:00 am - 4:00 pm
     phone: '(844) 750-3012'
     cost: free
-    website: 'nmaahc.si.edu'
+    website: 'https://nmaahc.si.edu'
 
 Parks:
   path_page: "category/parks.html"
@@ -72,7 +72,7 @@ Parks:
     hours: Sunrise - Sunset
     phone: '(202) 895-6000'
     cost: free
-    website: 'www.nps.gov/rocr/'
+    website: 'https://www.nps.gov/rocr/'
 
   - name: U.S. National Arboretum
     description: ''
@@ -84,7 +84,7 @@ Parks:
     hours: '8:00 am - 5:00 pm'
     phone: '(202) 245-4523'
     cost: free
-    website: 'www.usna.usda.gov'
+    website: 'https://www.usna.usda.gov'
 
 Restaurants:
   path_page: "category/restaurants.html"
@@ -101,7 +101,7 @@ Restaurants:
     hours: 12:00 pm - 9:00 pm
     phone: '(202) 363-0400'
     cost: '$30 per person'
-    website: www.bistroaracosia.com
+    website: 'https://www.bistroaracosia.com'
 
   - name: Del Mar
     description: ''
@@ -113,4 +113,4 @@ Restaurants:
     hours: 12am - 12pm
     phone: '(202) 525-1402'
     cost: '$70 per person'
-    website: www.delmardc.com
+    website: 'https://www.delmardc.com'

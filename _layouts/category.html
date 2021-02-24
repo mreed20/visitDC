@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 ---
 
 <script>
@@ -13,11 +13,7 @@ layout: default
   }
 </script>
 
-<header class="post-header">
-  <h1 class="post-title">{{ page.category }}</h1>
-</header>
-
-{% for activity in site.data.activities[page.category].list %}
+{% for activity in site.data.activities[page.title].list %}
 
 <div class="w3-row-padding">
   <!-- Activity name. -->
@@ -54,7 +50,7 @@ layout: default
       <li> <b>Hours</b>: {{ activity.hours }} </li>
       <li> <b>Entry Price</b>: {{ activity.cost }} </li>
       <li> <b>Phone</b>: {{ activity.phone }} </li>
-      <li> <b>Website</b>: <a href=https://{{ activity.website }}>{{activity.website}}</a> </li>
+      <li> <b>Website</b>: <a href={{ activity.website }}>{{activity.website}}</a> </li>
     </ul>
   </div>
 </div>

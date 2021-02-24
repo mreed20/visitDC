@@ -4,24 +4,9 @@ title: Planner
 ---
 
 
-<style>
-
-.drag_target {
-    border: solid 3px #ccc;
-    margin: 10px;
-}
-
-.item {
-    cursor: move;
-    border: solid 3px #ccc;
-    margin: 10px;
-}
-</style>
-
-
 <h3> Staging area </h3>
 <div class="cart w3-container"
-     style="display: flex; flex-direction: row; justiy-content: space-around; align-items: center; margin: 10px; border: solid 3px #ccc;"
+     style="display: flex; flex-direction: row; align-items: center; margin: 10px; border: solid 3px #ccc;"
      ondrop="drop(event)"
      ondragover="allowDrop(event)">
 </div>
@@ -51,7 +36,7 @@ title: Planner
     } else {
       $cart.innerHTML = items.map((item) => `
 
-      <div class="item" id=${item.id} draggable="true" ondragstart="drag(event)">
+      <div class="draggable_item" id=${item.id} draggable="true" ondragstart="drag(event)">
         ${item.name}
         <button class="btn btn-primary" onClick="cartLS.remove(${item.id})">Delete</Button>
       </div>`).join("")

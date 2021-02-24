@@ -4,7 +4,7 @@ url: "https://mreed20.github.io"
 
 author: "Michael Reed"
 
-theme: minima
+github_username: mreed20
 
 plugins:
   - jekyll-relative-links
