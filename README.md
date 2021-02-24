@@ -15,6 +15,7 @@ bundle exec jekyll serve --livereload
 
 Visit DC uses the following libraries and resources:
 
+- https://github.com/peet86/cart-localstorage
 - https://www.w3schools.com/css/tryit.asp?filename=trycss_grid
 - https://dcist.com/story/20/07/13/the-national-gallery-of-art-will-reopen-partially-next-week/
 - https://www.nytimes.com/2019/10/30/travel/footsteps-frederick-law-olmsted-parks.html 
