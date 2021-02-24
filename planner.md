@@ -6,16 +6,7 @@ title: Planner
 
 <style>
 
-.cart {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
 .drag_target {
-    height: 100px;
-    width: 100px;
     border: solid 3px #ccc;
     margin: 10px;
 }
@@ -29,12 +20,15 @@ title: Planner
 
 
 <h3> Staging area </h3>
-<div class="cart w3-container" style="margin: 10px; border: solid 3px #ccc;">
+<div class="cart w3-container"
+     style="display: flex; flex-direction: row; justiy-content: space-around; align-items: center; margin: 10px; border: solid 3px #ccc;"
+     ondrop="drop(event)"
+     ondragover="allowDrop(event)">
 </div>
 
 <h3> Destination area </h3>
 <div class="w3-container"
-     style="display: flex; flex-direction: row; margin: 10px; border: solid 3px #ccc;"
+     style="display: flex; flex-direction: row; margin: 10px;"
      ondrop="drop(event)"
      ondragover="allowDrop(event)">
 
@@ -83,26 +77,4 @@ title: Planner
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
   }
-
-  function handleDragStart(e) {
-    this.style.opacity = '0.4';
-  }
-
-  function handleDragEnd(e) {
-    this.style.opacity = '1';
-  }
-
-  function handleDragOver(e) {
-    if (e.preventDefault) {
-      e.preventDefault();
-    }
-    return false;
-  }
-
-  let items = document.querySelectorAll('.item');
-  items.forEach(function(item) {
-    item.addEventListener('dragstart', handleDragStart, false);
-    item.addEventListener('dragend', handleDragEnd, false);
-    item.addEventListener('dragover', handleDragOver, false);
-  });
 </script>
