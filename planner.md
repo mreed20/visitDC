@@ -3,7 +3,7 @@ layout: page
 title: Planner
 ---
 
-<script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
+<!--TODO: >
 
 <div>
     <table class="table">

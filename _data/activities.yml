@@ -1,15 +1,15 @@
 Live Entertainment:
   path_page: category/live_entertainment.html
-  path_photo: img/live_entertainment.jpg
+  path_photo: assets/img/live_entertainment.jpg
   alt_photo: "Dark indoor concert with bright stage"
   list:
   - name: '9:30 Club'
     id: 1  # for shopping cart
     description: ''
     description_author: Wikipedia
-    path_photo: img/930_club.jpg
+    path_photo: assets/img/930_club.jpg
     alt_photo: "Rock band on stage in crowded club"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: "815 V St NW"
     hours: N/A
     phone: '(202) 265-0930'
@@ -19,9 +19,9 @@ Live Entertainment:
   - name: DC Improv Comedy Club
     id: 2
     description: ''
-    path_photo: img/comedy_club.jpg
+    path_photo: assets/img/comedy_club.jpg
     alt_photo: "Microphone on stage of empty room with chairs"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: 1140 Connecticut Ave NW
     hours: 6:00 AM - 11:00 PM
     phone: '(202) 296-7008'
@@ -30,15 +30,15 @@ Live Entertainment:
 
 Museums:
   path_page: "category/museums.html"
-  path_photo: img/museums.jpg
+  path_photo: assets/img/museums.jpg
   alt_photo: "Room in art museum with paintings"
   list:
   - name: National Gallery of Art
     id: 3
     description: ''
-    path_photo: "img/nga.jpg"
+    path_photo: "assets/img/nga.jpg"
     alt_photo: "Stairs leading up to large building with pillars"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: Constitution Ave. NW
     hours: 11:00 am - 4:00 pm
     phone: '(202) 737-4215'
@@ -48,8 +48,8 @@ Museums:
   - name: 'National Museum of African American History & Culture'
     description: ''
     id: 4
-    path_photo: "img/aah.jpg"
-    path_map: img/map_placeholder.png
+    path_photo: "assets/img/aah.jpg"
+    path_map: assets/img/map_placeholder.png
     alt_photo: "Large modern building with three levels and few windows"
     street: 1400 Constitution Ave NW
     hours: 11:00 am - 4:00 pm
@@ -59,15 +59,15 @@ Museums:
 
 Parks:
   path_page: "category/parks.html"
-  path_photo: "img/parks.jpg"
+  path_photo: "assets/img/parks.jpg"
   alt_photo: "Large field with green tries and cloudy sky"
   list:
   - name: Rock Creek Park
     id: 5
     description: Very cool park.
-    path_photo: img/rock_creek_park.jpg
+    path_photo: assets/img/rock_creek_park.jpg
     alt_photo: "Stream in a forest"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: 5200 Glover Rd, NW
     hours: Sunrise - Sunset
     phone: '(202) 895-6000'
@@ -77,9 +77,9 @@ Parks:
   - name: U.S. National Arboretum
     description: ''
     id: 6
-    path_photo: img/arboretum.jpg
+    path_photo: assets/img/arboretum.jpg
     alt_photo: "Many arranged Roman pillars next to a lake"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: 3501 New York Ave NE
     hours: '8:00 am - 5:00 pm'
     phone: '(202) 245-4523'
@@ -88,15 +88,15 @@ Parks:
 
 Restaurants:
   path_page: "category/restaurants.html"
-  path_photo: "img/restaurants.jpg"
+  path_photo: "assets/img/restaurants.jpg"
   alt_photo: "Interior of empty, well-lit restaurant"
   list:
   - name: Bistro Aracosia
     description: ''
     id: 7
-    path_photo: img/aracosia.jpg
+    path_photo: assets/img/aracosia.jpg
     alt_photo: "Front door of restaurant with Bistro Aracosia sign written above"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: 5100 MacArthur Blvd
     hours: 12:00 pm - 9:00 pm
     phone: '(202) 363-0400'
@@ -106,9 +106,9 @@ Restaurants:
   - name: Del Mar
     description: ''
     id: 8
-    path_photo: img/del_mar.jpg
+    path_photo: assets/img/del_mar.jpg
     alt_photo: "Interior of lavishly decorated and empty restaurant"
-    path_map: img/map_placeholder.png
+    path_map: assets/img/map_placeholder.png
     street: 791 Wharf St. SW
     hours: 12am - 12pm
     phone: '(202) 525-1402'

@@ -4,8 +4,6 @@ title: Home
 permalink: /
 ---
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 <!-- https://www.w3schools.com/css/tryit.asp?filename=trycss_align_image -->
 <style>
 img {

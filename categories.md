@@ -3,8 +3,6 @@ layout: page
 title: Categories
 ---
 
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
 <div class="w3-row-padding">
 
     {% for activity in site.data.activities %}
