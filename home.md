@@ -19,7 +19,8 @@ img {
     <h1 class="w3-center">Plan a trip to DC!</h1>
 
     <img src="assets/img/national_mall.jpg"
-         style="width: 80%; border: 1px solid #ddd; padding: 3px; border-radius: 4px;">
+         style="width: 80%; border: 1px solid #ddd; padding: 3px; border-radius: 4px;"
+         alt="Lawn that stretches on for miles, flanked by large buildings and monuments">
 
     <br>
 
