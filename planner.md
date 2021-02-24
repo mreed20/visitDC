@@ -3,8 +3,6 @@ layout: page
 title: Planner
 ---
 
-<!--TODO: >
-
 <div>
     <table class="table">
         <tbody class="cart">
